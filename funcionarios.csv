@@ -1,0 +1,31 @@
+id,nome,cargo,departamento,salario_bruto,horas_extras,bonus,vale_transporte,vale_refeicao,inss,irrf,outros_descontos,salario_liquido
+1001,Carlos Eduardo Silva,Desenvolvedor Python,Tecnologia,5800.00,350.00,500.00,180.00,0.00,650.00,420.00,50.00,5350.00
+1002,Mariana Alves Costa,Analista de Dados,Dados,5200.00,0.00,300.00,180.00,0.00,580.00,310.00,25.00,4405.00
+1003,Rafael Martins Souza,Analista de Sistemas,Tecnologia,6100.00,420.00,600.00,180.00,0.00,690.00,470.00,80.00,5700.00
+1004,Juliana Ferreira Lima,Assistente Administrativo,Administrativo,3200.00,150.00,200.00,150.00,0.00,350.00,0.00,20.00,3030.00
+1005,Bruno Henrique Oliveira,Analista Financeiro,Financeiro,4900.00,200.00,400.00,180.00,0.00,550.00,250.00,30.00,4490.00
+1006,Camila Rodrigues Santos,Analista de RH,RH,4500.00,100.00,350.00,180.00,0.00,500.00,180.00,20.00,4070.00
+1007,Lucas Gabriel Pereira,Desenvolvedor C#,Tecnologia,5700.00,300.00,450.00,180.00,0.00,640.00,400.00,40.00,5170.00
+1008,Beatriz Almeida Rocha,Analista de Marketing,Marketing,4700.00,180.00,550.00,180.00,0.00,520.00,210.00,35.00,4485.00
+1009,Thiago Barbosa Mendes,Supervisor de Vendas,Comercial,6500.00,500.00,1200.00,180.00,0.00,730.00,650.00,100.00,5640.00
+1010,Larissa Gomes Ribeiro,Vendedora,Comercial,2900.00,120.00,350.00,150.00,0.00,320.00,0.00,15.00,2870.00
+1011,André Luiz Carvalho,Administrador de Redes,Infraestrutura,5400.00,250.00,400.00,180.00,0.00,610.00,330.00,45.00,4885.00
+1012,Fernanda Souza Castro,Designer,Marketing,4300.00,100.00,300.00,180.00,0.00,480.00,150.00,20.00,3870.00
+1013,Gustavo Henrique Lima,Técnico de Suporte,Infraestrutura,3100.00,200.00,150.00,150.00,0.00,340.00,0.00,10.00,2930.00
+1014,Patrícia Mendes Alves,Contadora,Financeiro,7200.00,300.00,700.00,180.00,0.00,810.00,850.00,100.00,6260.00
+1015,Diego Santos Ferreira,Desenvolvedor Java,Tecnologia,6200.00,450.00,600.00,180.00,0.00,700.00,520.00,60.00,5790.00
+1016,Aline Martins Rocha,Analista de RH,RH,4600.00,120.00,350.00,180.00,0.00,510.00,190.00,25.00,4145.00
+1017,Felipe Costa Nunes,Auxiliar Administrativo,Administrativo,2700.00,80.00,100.00,140.00,0.00,290.00,0.00,10.00,2440.00
+1018,Renata Oliveira Dias,Gerente Comercial,Comercial,8900.00,350.00,1800.00,180.00,0.00,1000.00,1500.00,120.00,8150.00
+1019,Matheus Pereira Gomes,Analista de Segurança,Infraestrutura,5900.00,280.00,500.00,180.00,0.00,660.00,450.00,50.00,5340.00
+1020,Isabela Fernandes Souza,Assistente de Marketing,Marketing,3300.00,100.00,200.00,150.00,0.00,360.00,0.00,20.00,3070.00
+1021,Rodrigo Alves Martins,Coordenador de TI,Tecnologia,7800.00,400.00,900.00,180.00,0.00,880.00,950.00,80.00,7010.00
+1022,Amanda Ribeiro Silva,Analista Financeiro,Financeiro,4800.00,150.00,350.00,180.00,0.00,530.00,220.00,30.00,4340.00
+1023,Vinícius Carvalho Souza,Técnico de Segurança,Infraestrutura,3500.00,180.00,200.00,150.00,0.00,380.00,0.00,15.00,3335.00
+1024,Letícia Gomes Martins,Psicóloga Organizacional,RH,5100.00,100.00,400.00,180.00,0.00,570.00,300.00,35.00,4515.00
+1025,Eduardo Ferreira Costa,Consultor de Vendas,Comercial,4100.00,250.00,700.00,180.00,0.00,450.00,120.00,40.00,4260.00
+1026,Sofia Mendes Oliveira,Desenvolvedora Front-end,Tecnologia,5000.00,300.00,450.00,180.00,0.00,560.00,270.00,30.00,4610.00
+1027,João Pedro Almeida,Analista de BI,Dados,5600.00,220.00,500.00,180.00,0.00,630.00,400.00,45.00,5065.00
+1028,Natália Rodrigues Lima,Secretária Executiva,Administrativo,4400.00,100.00,250.00,180.00,0.00,490.00,160.00,25.00,3895.00
+1029,Marcelo Henrique Santos,Gerente Financeiro,Financeiro,9500.00,400.00,1500.00,180.00,0.00,1070.00,1700.00,150.00,8340.00
+1030,Clara Beatriz Ribeiro,Estagiária de Tecnologia,Tecnologia,1800.00,0.00,100.00,100.00,0.00,0.00,0.00,0.00,1800.00

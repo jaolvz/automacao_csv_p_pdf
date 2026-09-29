@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Relatório - {{nome}}</title>
+<style>  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+main {
+    width: 100%;
+}
+
+.dados {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.dados h2 {
+    margin-bottom: 10px;
+}
+
+.dados p {
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #222;
+    margin: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.linha-pagamento {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.data {
+    font-size: 0.9em;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+    </style>    
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>RELATÓRIO DE PAGAMENTO</h1>
+        
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section class="dados">
+            <h2>{{nome}}</h2>
+            <p>Cargo: {{cargo}}</p>
+            <p>Departamento: {{departamento}}</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>RECEBIMENTOS</h2>
+
+            <div class="linha-pagamento">
+                <span>Salário bruto</span>
+                <span>R$ {{salario_bruto}}</span>
+            </div>
+
+            <div class="linha-pagamento">
+                <span>Horas extras</span>
+                <span>R$ {{horas_extras}}</span>
+            </div>
+
+            <div class="linha-pagamento">
+                <span>Bônus</span>
+                <span>R$ {{bonus}}</span>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>DESCONTOS</h2>
+
+            <div class="linha-pagamento">
+                <span>Vale transporte</span>
+                <span>R$ {{vale_transporte}}</span>
+            </div>
+
+            <div class="linha-pagamento">
+                <span>INSS</span>
+                <span>R$ {{inss}}</span>
+            </div>
+
+            <div class="linha-pagamento">
+                <span>IRRF</span>
+                <span>R$ {{irrf}}</span>
+            </div>
+
+            <div class="linha-pagamento">
+                <span>Outros descontos</span>
+                <span>R$ {{outros_descontos}}</span>
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="total">
+            <strong>SALÁRIO LÍQUIDO</strong>
+            <strong>R$ {{salario_liquido}}</strong>
+        </div>
+
+    </main>
+
+    <p class="data">{{data}}</p>
+</body>
+</html>
